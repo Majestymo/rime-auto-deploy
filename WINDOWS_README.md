@@ -89,7 +89,7 @@ https://github.com/Mark24Code/rime-auto-deploy/releases
 
 [https://rime.im/download/](https://rime.im/download/)
 
-自行安装，自行修改安装路径，不修改的话为默认位置，文件位于./os/Windows.rb 第三行Store.config_path = 'D:\\software\\Rime\\data' <⚠️注意>改为自己的用户文件夹路径
+自行安装，自行修改安装路径，不修改的话为默认位置，文件位于./os/Windows.rb 第三行Store.config_path = 'D:\\software\\Rime\\data'  <⚠️注意>改为自己的用户文件夹路径
 
 ![default-path](/images/windows/04-install-rime/step1-default-path.png)
 
@@ -101,6 +101,7 @@ https://github.com/Mark24Code/rime-auto-deploy/releases
 执行脚本，最好排除干扰，终止Rime运行:
 
 * 执行中止 Rime小狼毫 的服务。
+* 以管理员权限运行，否则权限可能不够（windows平台）。
 * 或者直接在项目管理器中退出Rime小狼毫进程（推荐）。
 
 ![stop-service](/images/windows/05-run-script/step1-quit-servce.png)
