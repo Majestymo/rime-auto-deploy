@@ -89,7 +89,7 @@ https://github.com/Mark24Code/rime-auto-deploy/releases
 
 [https://rime.im/download/](https://rime.im/download/)
 
-自行安装， 务必 ⚠️采用默认路径安装。
+自行安装，自行修改安装路径，不修改的话为默认位置，文件位于./os/Windows.rb 第三行Store.config_path = 'D:\\software\\Rime\\data' <⚠️注意>改为自己的用户文件夹路径
 
 ![default-path](/images/windows/04-install-rime/step1-default-path.png)
 
